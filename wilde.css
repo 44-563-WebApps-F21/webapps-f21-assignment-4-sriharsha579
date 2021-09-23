@@ -35,7 +35,7 @@ h5.moranzone2{
     color: mediumblue;
 }
 
-h5.guildo2{
+h5.guido2{
     color: mediumblue;
     border: green;
 }
@@ -47,7 +47,7 @@ h5.moranzo2:hover{
     filter: blur(1px);
 }
 
-h5.guildo2:hover{
+h5.guido2:hover{
     color: red;
     text-shadow:2px 3px 5px green;
     border: red;
@@ -63,3 +63,8 @@ table,td,th
     padding: 10px;
     margin: 20px;
 }
+
+tr:nth-child(even) {
+    background-color:#ccc;
+  }
+
