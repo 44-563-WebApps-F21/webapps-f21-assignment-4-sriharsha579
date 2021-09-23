@@ -23,21 +23,23 @@ p.stage-direction:hover{
 
 h5.moranzone{
      color: mediumblue;
-    
+     margin-left: 10px;
 }
 
 h5.guido{
     color: mediumblue;
-   
+    margin-left: 10px;
 }
 
 h5.moranzone2{
     color: mediumblue;
+    margin-left: 10px;
 }
 
 h5.guido2{
     color: mediumblue;
     border: green;
+    margin-left: 10px;
 }
 
 h5.moranzo2:hover{
@@ -68,3 +70,44 @@ tr:nth-child(even) {
     background-color:#ccc;
   }
 
+  #content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    height: 325px;
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+    
+  ul.navbar-horizontal a:hover{
+    background-color: #555;color:purple;
+  }
+
+  .ico:before{
+    content: '';
+    background:url('mic.png');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-10px;
+}
