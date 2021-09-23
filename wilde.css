@@ -1,0 +1,65 @@
+p {
+    font-size:14;
+    color:black;
+    font: "font: 15px Arial, sans-serif;"
+}
+
+p.speech {
+    font: "font: 15px Arial, sans-serif;";
+    color: black;
+    
+}
+
+P.stage-direction{
+    background-color: skyblue;
+    margin-left:20px;
+
+}
+
+p.stage-direction:hover{
+    background-color:yellow;
+    color:red;
+}
+
+h5.moranzone{
+     color: mediumblue;
+    
+}
+
+h5.guido{
+    color: mediumblue;
+   
+}
+
+h5.moranzone2{
+    color: mediumblue;
+}
+
+h5.guildo2{
+    color: mediumblue;
+    border: green;
+}
+
+h5.moranzo2:hover{
+    color: red;
+    text-shadow:2px 3px 5px green;
+    border: red;
+    filter: blur(1px);
+}
+
+h5.guildo2:hover{
+    color: red;
+    text-shadow:2px 3px 5px green;
+    border: red;
+    filter: blur(1px);
+}
+
+table,td,th
+{ 
+    border: solid 1px ;
+    text-align: center;
+    width: 20%;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
